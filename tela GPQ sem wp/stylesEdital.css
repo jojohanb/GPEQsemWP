@@ -1,0 +1,223 @@
+/* ESTILO DA PÁGINA INICIAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* PARTE CABEÇA */
+  
+  #icone-edital {
+      height: 60px; /*Esse é o icone menor da logo GPEQ*/
+  }
+  
+  .top-edital {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      height: 50px;
+      background-color: #ffffff;
+  }
+  
+  .logo-container-edital {
+      display: flex;
+      align-items: center;
+  }
+  
+  #nome-logo-edital {
+      font-weight: bold;
+      font-size: 24px;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  .opcoes-edital {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-left: auto;
+  }
+  
+  #publicar-edital {
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: rgb(54, 113, 176);
+      color: #ffffff;
+      border: 3px solid rgb(54, 113, 176);
+    }
+    
+    #perfil-edital {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+    }
+    
+  
+
+
+/* PARTE CORPO/ PÁGINA INICIAL */
+
+
+.inicio-corpo-edital {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+}
+
+.texto-container-edital {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center; 
+}
+
+#icone-maior-edital {
+    width: 30%; 
+}
+
+.texto-container-edital h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto-container-edital p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+}
+
+#explorar-edital {
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block;
+}
+
+
+
+/* CORPO 3 PAGINA PROJETOS */
+.projeto-1-edital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #F0F8FA;
+    height: 500px;
+    width: 100%;
+}
+
+.descricao-1-edital{
+    background-color: #73C1EC;
+    height: 400px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* font-size: small; */
+    padding: 30px;
+    
+}
+
+.descricao-1-edital p{
+    color: #333;
+}
+
+.descricao-2-edital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+    width: 400px;
+    gap: 10px;
+    text-align: center;
+}
+
+.botao-edital{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    border: 3px solid rgb(54, 113, 176);
+}
+
+/*  CORPINHO 1*/
+.corpo-edital-1 {
+    margin: 50px; 
+}
+
+.corpo-edital-1 h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.linha-tracinho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tracinho {
+    width: 40px;
+    height: 12px;
+    background-color: #2766EE;
+    margin-right: 10px; 
+    flex-shrink: 0;
+}
+
+.corpo-edital-1 p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+
+
+
+/* FOOTER/ DA PÁGINA INICIAL */
+
+
+.rodapé-edital {
+    background-color: rgb(31, 72, 167);
+    padding: 40px 50px; 
+    box-shadow: 0 0 20px rgb(31, 72, 167);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+
+.rodapé-edital div {
+    flex: 1; /*tá, aqui as três divs vão ocupar o mesmo tamanho e ocupação em partes iguais do container  */
+    min-width: 150px;
+}
+
+.rodapé-edital h3 {
+    margin-bottom: 10px;
+}
+
+.rodapé-edital p {
+    margin-bottom: 10px;
+}
+
+
