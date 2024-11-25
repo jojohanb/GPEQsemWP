@@ -1,0 +1,324 @@
+/* ESTILO DA PÁGINA INICIAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* PARTE CABEÇA */
+
+#icone {
+    height: 60px; /*Esse é o icone menor da logo GPEQ*/
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#nome-logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.opcoes {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: auto;
+}
+
+#publicar {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    border: 3px solid rgb(54, 113, 176);
+  }
+  
+  #perfil {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+  
+
+
+
+
+/* PARTE CORPO/ PÁGINA INICIAL */
+
+
+.inicio-corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+}
+
+.texto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center; 
+}
+
+#icone-maior {
+    width: 30%; 
+}
+
+.texto-container h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto-container p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+}
+
+#explorar {
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block;
+}
+
+/* PARTE CORPO 2/ PÁGINA INICIAL */
+
+.container-imagens {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px 50px;
+}
+
+.imagens-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%; 
+    text-align: center; 
+}
+
+/* .container-imagens img {
+    width: 250px;
+    border-radius: 5px;
+} */
+
+.container-texto p {
+    text-align: justify; 
+    margin: 20px;
+}
+
+.imagens-container img{
+    margin: 0 10px;
+    
+}
+
+#img-1{
+    height: 250px;
+    width: 380px;
+}
+
+
+
+/* PARTE CORPO 3/ PÁGINA INICIAL */
+
+
+.saiba {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: rgb(237, 237, 237);
+    padding: 10px 20px;
+    gap: 20px; 
+}
+
+#img-saiba-mais {
+    width: 25%;
+}
+
+.saiba-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    gap: 10px; 
+}
+
+#saiba-mais {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    border: 3px solid rgb(54, 113, 176);
+}
+
+
+/* FOOTER/ DA PÁGINA INICIAL */
+
+
+.rodapé {
+    background-color: rgb(31, 72, 167);
+    padding: 40px 50px; 
+    box-shadow: 0 0 20px rgb(31, 72, 167);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+
+.rodapé div {
+    flex: 1; /*tá, aqui as três divs vão ocupar o mesmo tamanho e ocupação em partes iguais do container  */
+    min-width: 150px;
+}
+
+.rodapé h3 {
+    margin-bottom: 10px;
+}
+
+.rodapé p {
+    margin-bottom: 10px;
+}
+
+/* PARTE RESPONSIVA DA PARTE INICIAL */
+
+
+@media (max-width: 767px) { 
+/* PARTE CABEÇA / INICIAL */
+  .opcoes{
+    display: none; /*aqui eu tenho que criar uma barra escondida de menu com as opções*/
+  }
+
+  .top{
+    display: flex;
+    justify-content: space-between;
+  }
+
+/* PARTE DO CORPO */
+  .texto-container h2{
+    font-size:larger
+  }
+
+  .texto-container p{
+    font-size:x-small
+  }
+
+  #explorar {
+    height: auto; 
+    width: 150px;
+    font-size: xx-small;
+    padding: 5px; 
+}
+  #icone-maior {
+    width: 300px;
+
+  }
+
+/* PARTE DO CORPO 2*/
+
+  .imagens-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+  }
+
+  .imagens-grid img {
+    max-width: 150px;
+  }
+
+  .container-text h3{
+    font-size: small;
+  }
+
+  .container-texto p{
+    font-size: xx-small;
+  }
+
+  .imagens-container{
+    display: flex;
+  }
+
+  .imagens-container img {
+    max-width: 100px; 
+    height: 50px; 
+  }
+
+  #img-1{
+    height: auto;
+    width: 80px;
+    margin: 1;
+  }
+
+  #img-2{
+    height: 60px;
+    margin: 0;
+  }
+
+  .saiba-texto{
+    font-size: x-small;
+  }
+
+/* PARTE DO CORPO 3*/
+
+
+  #saiba-mais{
+    height: auto; 
+    width: 100px;
+    font-size: xx-small;
+    padding: 5px; 
+  }
+
+  /* PARTE FOOTER INICIAL */
+
+  .rodapé h3{
+    font-size: x-small;
+  }
+
+  .rodapé p{
+    font-size: xx-small;
+    
+  }
+
+  .rodapé{
+    flex-wrap: nowrap;
+  }
+}
+
+/* PARTE ESTILIZAÇÂO TAMBÉM CONCLUIDAAA */

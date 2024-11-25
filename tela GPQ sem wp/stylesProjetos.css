@@ -1,0 +1,348 @@
+/* ESTILO DA PÁGINA PROJETOS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* PARTE CABEÇA */
+  
+  #icone-projetos {
+      height: 60px; /*Esse é o icone menor da logo GPEQ*/
+  }
+  
+  .top-projetos {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      height: 50px;
+      background-color: #ffffff;
+  }
+  
+  .logo-container-projetos {
+      display: flex;
+      align-items: center;
+  }
+  
+  #nome-logo-projetos {
+      font-weight: bold;
+      font-size: 24px;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  .opcoes-projetos {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-left: auto;
+  }
+  
+  #publicar-projetos {
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: rgb(54, 113, 176);
+      color: #ffffff;
+      border: 3px solid rgb(54, 113, 176);
+    }
+    
+    #perfil-projetos {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+    }
+    
+  /* PARTE CORPO/ PÁGINA EQUIPE */
+
+
+.inicio-corpo-projetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    /* background-color: rgb(247, 247, 247); */
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+}
+
+.texto-container-projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center; 
+}
+
+#icone-maior-projetos {
+    width: 40%; 
+}
+
+.texto-container-projetos h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto-container-projetos p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+}
+
+#explorar-projetos {
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block;
+}
+
+/* PARTE CORPO 2 PROJETOS */
+
+.imagens-projetos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px; 
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.imagens-projetos img {
+    width: 600px;
+}
+
+.tela-em-branco {
+    position: absolute;
+    left: 56.5%; 
+    background-color: rgb(255, 255, 255);
+    width: 418px;
+    padding: 15px;
+    text-align: center;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#crianças {
+    width: 350px;
+    margin-bottom: 10px; 
+}
+
+.tela-em-branco p {
+    margin: 0; 
+    color: #333;
+    font-size: 13px;
+}
+/* CORPO 3 PAGINA PROJETOS */
+.projeto-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #F0F8FA;
+    height: 500px;
+    width: 100%;
+}
+
+.descricao-1{
+    background-color: #73C1EC;
+    height: 400px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* font-size: small; */
+    padding: 30px;
+    
+}
+
+.descricao-1 p{
+    color: #333;
+}
+
+.descricao-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+    width: 400px;
+    gap: 10px;
+    text-align: center;
+}
+
+.botao-projetos{
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    border: 3px solid rgb(54, 113, 176);
+}
+
+/* PÁGINA 4 CORPO PROJETOS */
+
+.grupo-fotos-projetos {
+    display: flex;
+    gap: 110px;
+    padding: 20px;
+    height: 600px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.caixa-imagens-projetos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    width: 640px;
+    height: 300px;
+    padding: 10px;
+}
+
+.caixa-imagens-projetos img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.projeto-2 {
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.projeto-2 h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.projeto-2 p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    text-align: center;
+}
+
+/* PÁGINA 5 CORPO PROJETOS */
+.projeto-3{
+    display: flex;
+    background-color: #ffffff;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.caixa-azul-projetos{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #2766EE;
+    height: 350px;
+    width: 600px;
+}
+
+.caixa-amarela-projetos{
+    display: flex;
+    background-color: #FFC83A;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    top: -25px;
+    text-align: center;
+}
+
+/* PÁGINA CORPO 6 PROJETOS */
+
+.corpo-modulos {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; 
+    height: 300px;
+  }
+  
+  .modulo {
+    height: 230px;
+    max-width: 23%; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+  }
+
+
+  .corpo-modulos2 {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    align-items: flex-start;
+    justify-content: center; 
+    height: 350px;
+  }
+  
+
+  .corpo-modulos2 img {
+    flex: 0 0 18%; 
+    max-width: 18%; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+
+/* FOOTER/ DA PÁGINA INICIAL */
+
+
+.rodapé {
+    background-color: rgb(31, 72, 167);
+    padding: 40px 50px; 
+    box-shadow: 0 0 20px rgb(31, 72, 167);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+
+.rodapé div {
+    flex: 1; /*tá, aqui as três divs vão ocupar o mesmo tamanho e ocupação em partes iguais do container  */
+    min-width: 150px;
+}
+
+.rodapé h3 {
+    margin-bottom: 10px;
+}
+
+.rodapé p {
+    margin-bottom: 10px;
+}
+
+
+
+
+  
