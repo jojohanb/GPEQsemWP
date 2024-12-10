@@ -1,0 +1,219 @@
+/* ESTILO DA PÁGINA INICIAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* PARTE CABEÇA */
+  
+  #icone-jornal {
+      height: 60px; /*Esse é o icone menor da logo GPEQ*/
+  }
+  
+  .top-jornal {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      height: 50px;
+      background-color: #ffffff;
+  }
+  
+  .logo-container-jornal {
+      display: flex;
+      align-items: center;
+  }
+  
+  #nome-logo-jornal {
+      font-weight: bold;
+      font-size: 24px;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  .opcoes-jornal {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-left: auto;
+  }
+  
+  #publicar-jornal {
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: rgb(54, 113, 176);
+      color: #ffffff;
+      border: 3px solid rgb(54, 113, 176);
+    }
+    
+    #perfil-jornal {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+    }
+
+
+      /* PARTE CORPO/ PÁGINA EQUIPE */
+
+
+.inicio-corpo-jornal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    /* background-color: rgb(247, 247, 247); */
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+}
+
+.texto-container-jornal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center; 
+}
+
+#icone-maior-jornal {
+    width: 40%; 
+}
+
+.texto-container-jornal h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.texto-container-jornal p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(145, 145, 145);
+}
+
+#explorar-jornal {
+    background-color: rgb(54, 113, 176);
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block;
+}
+    
+
+/* PÁGINA 5 CORPO PROJETOS */
+.jornal-3{
+    padding: 30px;
+    display: flex;
+    background-color: #ffffff;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.caixa-azul-jornal{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #2766EE;
+    height: 350px;
+    width: 600px;
+}
+
+.caixa-amarela-jornal{
+    display: flex;
+    background-color: #FFC83A;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    top: -28px;
+    text-align: center;
+}
+
+
+
+/* PÁGINA CORPO 6 PROJETOS */
+
+.corpo-modulos-jornal {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; 
+    height: 300px;
+  }
+  
+  .modulo-jornal {
+    height: 230px;
+    max-width: 23%; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+  }
+
+
+  .corpo-modulos2-jornal {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    align-items: flex-start;
+    justify-content: center; 
+    height: 350px;
+  }
+  
+
+  .corpo-modulos2-jornal img {
+    flex: 0 0 18%; 
+    max-width: 18%; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+
+/* FOOTER/ DA PÁGINA INICIAL */
+
+
+.rodapé-jornal {
+    background-color: rgb(31, 72, 167);
+    padding: 40px 50px; 
+    box-shadow: 0 0 20px rgb(31, 72, 167);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+}
+
+.rodapé-jornal div {
+    flex: 1; /*tá, aqui as três divs vão ocupar o mesmo tamanho e ocupação em partes iguais do container  */
+    min-width: 150px;
+}
+
+.rodapé-jornal h3 {
+    margin-bottom: 10px;
+}
+
+.rodapé-jornal p {
+    margin-bottom: 10px;
+}
+
+
+
+
+  
+
+  
+  
+  
